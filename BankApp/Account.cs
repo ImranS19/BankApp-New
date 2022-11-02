@@ -26,7 +26,7 @@ namespace BankApp
         /// </summary>
         public int AccountNumber { get; private set; }
         public string AccountName { get; set; }
-        public string AccountType { get; set; }
+        public TypeOfAccounts AccountType { get; set; }
         public decimal Balance { get; private set; }
         public string EmailAddress { get; set; }
         public DateTime CreatedDate { get; set; }
